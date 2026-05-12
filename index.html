@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Rodrigues | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome para ícones (CDN oficial, permitido por ser apenas ícone) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- BARRA DE NAVEGAÇÃO FIXA -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h2>Matheus<span>Rodrigues</span></h2>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#sobre" class="nav-link">Sobre mim</a></li>
+                <li><a href="#formacao" class="nav-link">Formação</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+                <li><button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- SEÇÃO SOBRE MIM -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Sobre mim</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <h3>Olá! Eu sou <span class="highlight">Matheus Rodrigues Mauricio</span></h3>
+                    <h4>Estagiário de Gestão de Acessos de Identidade</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> São Bernardo do Campo / SP</p>
+                    <p>Gosto bastante de sair com minha namorada, ficar com minha família, passear em parques, cinema, ouvir músicas e discos de vinil, ler livros, trabalhar, estudar e ir para a academia. Jogava vôlei, mas não jogo mais, porém pretendo voltar a jogar.</p>
+                    
+                    <div class="skills">
+                        <h5>Habilidades Técnicas:</h5>
+                        <div class="skills-badges">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                            <span>C++</span>
+                            <span>Azure</span>
+                            <span>AWS</span>
+                            <span>JIRA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-perfil">
+                    <div class="perfil-placeholder">
+                        <img src="foto.jpg" alt="Matheus Rodrigues" class="foto-perfil">
+                        <p>Matheus Rodrigues</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO FORMAÇÃO -->
+    <section id="formacao" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h1>Formação</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="formacao-grid">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Ciência de Dados</h3>
+                    <p class="instituicao">Centro Universitário UNINTER</p>
+                    <p class="data">Maio/2025 - Nov/2027</p>
+                    <p>Graduação em andamento</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>SENAI</h3>
+                    <p class="instituicao">Integração de Soluções em Nuvem</p>
+                    <p class="data">Concluído</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <h3>SENAI</h3>
+                    <p class="instituicao">Google Cloud Foundations</p>
+                    <p class="data">Concluído</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <h3>Microsoft AI-900</h3>
+                    <p class="instituicao">DIO</p>
+                    <p class="data">Concluído</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Análise de Dados</h3>
+                    <p class="instituicao">Enap - Suporte para tomada de decisões</p>
+                    <p class="data">Concluído</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Introdução à Análise de Dados</h3>
+                    <p class="instituicao">Fundação Bradesco (Power BI)</p>
+                    <p class="data">Concluído</p>
+                </div>
+            </div>
+            <div class="idiomas">
+                <h3><i class="fas fa-language"></i> Idiomas</h3>
+                <div class="idioma-item">
+                    <span>Inglês</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%;"></div>
+                    </div>
+                    <span>Intermediário</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO PORTFÓLIO -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h1>Portfólio</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Projeto 1 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>IOT 2024 (SENAI)</h3>
+                    <p>Desenvolvi, no SENAI, um sistema IoT onde utilizei um ESP32 para coletar dados de sensores e enviá-los em formato JSON via MQTT para a AWS, garantindo uma comunicação segura com o uso de certificados e broker próprio. Também implementei uma dashboard interativa no Node-RED, rodando em uma instância EC2, permitindo o monitoramento e controle remoto dos dados em tempo real.</p>
+                    <div class="portfolio-tags">
+                        <span>ESP32</span>
+                        <span>AWS</span>
+                        <span>MQTT</span>
+                        <span>C++</span>
+                        <span>Node-RED</span>
+                    </div>
+                    <a href="https://github.com/RodriguessMatheus/IOT_2024" target="_blank" class="btn-portfolio">
+                        <i class="fab fa-github"></i> Ver no GitHub
+                    </a>
+                </div>
+                <!-- Projeto 2 -->
+                <div class="portfolio-card">
+                    <div class="portfolio-icon">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <h3>Cofrinho Digital (UNINTER)</h3>
+                    <p>Este trabalho consiste no desenvolvimento de um sistema de cofrinho digital em Java, que permite ao usuário gerenciar moedas de diferentes tipos, como dólar, euro e real. Através de um menu interativo no terminal, o usuário pode adicionar moedas ao cofrinho, remover valores específicos, listar todas as moedas armazenadas e visualizar o total convertido em reais.</p>
+                    <div class="portfolio-tags">
+                        <span>Java</span>
+                        <span>POO</span>
+                    </div>
+                    <a href="https://github.com/RodriguessMatheus/cofre_trabalhoUninter/tree/main" target="_blank" class="btn-portfolio">
+                        <i class="fab fa-github"></i> Ver no GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO -->
+    <section id="contato" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h1>Contato</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="contato-wrapper">
+                <div class="contato-info">
+                    <h3>Vamos conversar!</h3>
+                    <p>Fique à vontade para entrar em contato comigo através do formulário ou pelas redes sociais abaixo:</p>
+                    <div class="social-links">
+                        <a href="https://github.com/RodriguessMatheus" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/matheus-rodrigues-56896325a/" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="mailto:matheuszz.mr1@gmail.com" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="contato-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome completo *</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                            <small class="error-message" id="nome-error"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com">
+                            <small class="error-message" id="email-error"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem..."></textarea>
+                            <small class="error-message" id="mensagem-error"></small>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i class="fas fa-paper-plane"></i> Enviar mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Matheus Rodrigues - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
